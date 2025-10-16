@@ -1,0 +1,21 @@
+[font]
+
+size = 15.0
+
+[colors.primary]
+# background            = "#1E1E2E"
+# foreground            = "#CDD6F4"
+# dim_foreground        = "#CDD6F4"
+# bright_foreground     = "#CDD6F4"
+
+[keyboard]
+
+bindings = [
+  { key = "Left",  mods = "Command|Alt", action = "SelectPreviousTab"},
+  { key = "Right", mods = "Command|Alt", action = "SelectNextTab"},
+  { key = "Left",  mods = "Alt",         chars = "\u001bB" },
+  { key = "Right", mods = "Alt",         chars = "\u001bF" },
+  { key = "B",     mods = "Alt",         chars = "\u001bB" },
+  { key = "F",     mods = "Alt",         chars = "\u001bF" },
+  { key = "D",     mods = "Alt",         chars = "\u001bD" },
+]
