@@ -11,11 +11,13 @@ size = 15.0
 [keyboard]
 
 bindings = [
-  { key = "Left",  mods = "Command|Alt", action = "SelectPreviousTab"},
-  { key = "Right", mods = "Command|Alt", action = "SelectNextTab"},
-  { key = "Left",  mods = "Alt",         chars = "\u001bB" },
-  { key = "Right", mods = "Alt",         chars = "\u001bF" },
-  { key = "B",     mods = "Alt",         chars = "\u001bB" },
-  { key = "F",     mods = "Alt",         chars = "\u001bF" },
-  { key = "D",     mods = "Alt",         chars = "\u001bD" },
+  { key = "Left",   mods = "Command|Alt", action = "SelectPreviousTab"},
+  { key = "Right",  mods = "Command|Alt", action = "SelectNextTab"},
+  { key = "Left",   mods = "Alt",         chars = "\u001bB" },
+  { key = "Right",  mods = "Alt",         chars = "\u001bF" },
+  { key = "B",      mods = "Alt",         chars = "\u001bB" },
+  { key = "F",      mods = "Alt",         chars = "\u001bF" },
+  { key = "D",      mods = "Alt",         chars = "\u001bD" },
+  { key = "Return", mods = "Shift",       chars = "\u001B\r" },
 ]
+
